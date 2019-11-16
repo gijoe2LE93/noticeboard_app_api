@@ -68,7 +68,8 @@ GEM
     pg (0.20.0)
     puma (3.8.2)
     rack (2.0.2)
-    rack-cors (0.4.1)
+    rack-cors (1.0.6)
+      rack (>= 1.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.3)
@@ -127,11 +128,11 @@ DEPENDENCIES
   listen (~> 3.0.5)
   pg (~> 0.18)
   puma (~> 3.0)
-  rack-cors
+  rack-cors (>= 1.0.5)
   rails (~> 5.0.3)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
