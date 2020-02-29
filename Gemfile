@@ -11,7 +11,7 @@ gem 'rails', '~> 5.0.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12', '>= 3.12.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # Use faker to install seed data
 gem 'faker'
